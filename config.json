@@ -1,6 +1,6 @@
 {
   "name": "Full Chain Certificate",
-  "version": "0.1.0",
+  "version": "v0.1.0",
   "slug": "full_chain_cert",
   "description": "Fetches a CA root certificate and creates a full chain certificate file from existing certificate files. Useful where a full chain including CA root certificate is required inside Home Assistant or for other add-ons.",
   "arch": [
