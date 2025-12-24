@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+/data/
+# Remove any local build artifacts
+build/
+dist/
