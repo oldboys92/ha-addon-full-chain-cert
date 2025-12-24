@@ -52,7 +52,7 @@ jobs:
         with:
           context: .
           file: ./Dockerfile
-          platforms: linux/amd64,linux/arm64,linux/arm/v7
+          platforms: linux/amd64,linux/arm64,linux/arm/v7,linux/i386
           push: true
           tags: |
             ghcr.io/${{ github.repository_owner }}/ha-addon-full-chain-cert:latest
